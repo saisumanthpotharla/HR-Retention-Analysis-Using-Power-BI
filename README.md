@@ -40,19 +40,6 @@ The explore page allows users to interact with the data through various slicers,
 
 This functionality enables users to create a dynamic matrix tailored to their specific interests and analyze data in a customized way.
 
-## DAX Measures
-Here are some key DAX measures used in the project:
-
-- **Retention Percentage:** 
-    ```DAX
-    Retention % = DIVIDE(SUM(hr[Retention]), SUM(hr[Employee Count]), 0)
-    ```
-- **Attrition Percentage:** 
-    ```DAX
-    Attrition % = DIVIDE(SUM(hr[Attrition]), SUM(hr[Employee Count]), 0)
-    ```
-
-Feel free to explore the DAX measures and customize them for your analysis!
 
 ## Conclusion
 This HR retention analysis project highlights significant trends and factors that affect employee retention. By utilizing Power BI's interactive dashboard, HR professionals can gain valuable insights to improve employee satisfaction and retention strategies.
